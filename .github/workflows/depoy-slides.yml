@@ -27,13 +27,13 @@ jobs:
           node-version: 'lts/*'
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Install slidev
-        run:  npm i -g @slidev/cli
+        run: yarn install
 
       - name: Build
-        run: slidev build --base /subtraction-as-innovation-slides/
+        run: yarn slidev build --base /subtraction-as-innovation-slides/
+
+      - name: Add images
+        run: mv images dist/
 
       - uses: actions/configure-pages@v3
 
