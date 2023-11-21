@@ -1,0 +1,21 @@
+{
+  "name": "subtraction-as-innovation-slides",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.43.7",
+    "@slidev/theme-default": "^0.21.2",
+    "slidev-theme-dracula": "^0.2.0"
+  },
+  "devDependencies": {
+    "inquirer": "^9.2.11"
+  },
+  "volta": {
+    "node": "16.13.1",
+    "yarn": "3.0.1"
+  }
+}
